@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>臧海彬的个人主页</title>
+        <meta charset="utf8" />
+        <link type="image/x-icon" rel="icon" href="images/logo.png" />
+        <script src="vue/vue.js"></script>
+        <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" />
+        <link href="animate/animate.css" rel="stylesheet" />
+        <link href="component/image-box.css" rel="stylesheet" />
+        <link href="component/item-display.css" rel="stylesheet" />
+        <link href="component/function-logo.css" rel="stylesheet" />
+        <link href="css/home.css" rel="stylesheet" />
+        <script src="component/image-box.js"></script>
+        <script src="component/item-display.js"></script>
+        <script src="component/function-logo.js"></script>
+        <script src="js/home.js"></script>
+    </head>
+    <body>
+        <div id="app">
+            <function-logo></function-logo>
+            <item-display
+            v-for="(item,index) in itemList"
+            :key="index"
+            :item="item"
+            :order="index+1"
+            ></item-display>
+        </div>
+    </body>
+</html>
