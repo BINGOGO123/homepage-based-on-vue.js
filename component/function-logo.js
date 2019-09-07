@@ -2,7 +2,7 @@
 Vue.component("function-logo",{
     template:`
     <transition name="logo">
-        <div :class="{'function-logo':true,opened:opened}">
+        <div :class="{'function-logo':true,opened:opened,closed:closed}">
             <div class="logo" @click="changeOpen">
                 B
             </div>
@@ -39,12 +39,14 @@ Vue.component("function-logo",{
     data:function(){
         return {
             opened:false,
-            hover:false
+            hover:false,
+            closed:false
         };
     },
     methods:{
         changeOpen:function(){
             this.opened=!this.opened;
+            this.closed=!this.opened;
             this.hover=false;
         }
     }
