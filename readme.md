@@ -2,30 +2,21 @@
 通过 vue.js 实现的前端界面，用作个人主页的导航
 
 ## 文件说明
-.
-+-- _animate
-+-- component
-|   +-- function-logo.css
-|   +-- function-logo.js
-|   +-- image-box.css
-|   +-- image-box.js
-|   +-- item-display.css
-|   +-- item-display.js
-+-- css
-|   +-- home.css
-+-- font-awesome
-+-- images
-|   +-- head.jpg
-|   +-- logo.png
-+-- js
-|   +-- home.js
-+-- project
-|   +-- chat
-|   +-- compiler
-|   +-- editor
-|   +-- qr_code
-|   +-- sitp
-|   +-- tongjicircle
-|   +-- web_chat
-+-- vue
-+-- index.html
+```
+project
+│   README.md
+│   file001.txt    
+│
+└───folder1
+│   │   file011.txt
+│   │   file012.txt
+│   │
+│   └───subfolder1
+│       │   file111.txt
+│       │   file112.txt
+│       │   ...
+│   
+└───folder2
+    │   file021.txt
+    │   file022.txt
+```
