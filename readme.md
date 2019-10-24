@@ -3,7 +3,7 @@
 
 ## 文件说明
 .
-+-- animate
++-- _animate
 +-- component
 |   +-- function-logo.css
 |   +-- function-logo.js
