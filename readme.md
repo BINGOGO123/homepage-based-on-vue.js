@@ -3,20 +3,43 @@
 
 ## 文件说明
 ```
-project
-│   README.md
-│   file001.txt    
+home
+│   readme.md
+│   index.html    
 │
-└───folder1
-│   │   file011.txt
-│   │   file012.txt
+└───animate
+│   │   animate.css
 │   │
-│   └───subfolder1
-│       │   file111.txt
-│       │   file112.txt
-│       │   ...
+│   └───component
+│       │   function-logo.css
+│       │   function-logo.js
+│       │   image-box.css
+│       │   image-box.js
+│       │   item-display.css
+│       │   item-display.js
 │   
-└───folder2
-    │   file021.txt
-    │   file022.txt
+└───css
+|   │   home.css
+|
+└───font-awesome
+|   |   ...
+|
+└───images
+|   |   head.jpg
+|   |   logo.png
+|
+└───js
+|   |   home.js
+|
+└───project
+|   |   chat
+|   |   compiler
+|   |   editor
+|   |   qr_code
+|   |   sitp
+|   |   tongjicircle
+|   |   web_chat
+|
+└───vue
+    |   vue.js
 ```
