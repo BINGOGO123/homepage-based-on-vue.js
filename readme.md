@@ -2,6 +2,7 @@
 通过 vue.js 实现的前端界面，用作个人主页的导航
 
 ## 文件说明
+.
 +-- animate
 +-- component
 |   +-- function-logo.css
