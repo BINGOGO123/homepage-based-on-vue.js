@@ -4,6 +4,35 @@ window.onload = function(){
         data:{
             itemList:[
                 {
+                    title:"安全可搜索云存储",
+                    introduction:"多关键词相关性排序可搜索云存储app：前端使用@vue/cli搭建脚手架并通过hbuilder打包为安卓app，服务器通过linux + apache + mysql + django的模式实现后端api，前后端分离。1.数据所有者建立密文系统，分享共享信息使得其他人可以搜索文件。2.支持加密状态下多个关键词按照相关性顺序返回结果。3.数据所有者可对每个用户和文件进行属性访问权限控制。",
+                    imageList:[
+                        "project/searchable_encryption/1.jpg",
+                        "project/searchable_encryption/2.jpg",
+                        "project/searchable_encryption/3.jpg",
+                        "project/searchable_encryption/4.jpg",
+                        "project/searchable_encryption/5.jpg",
+                        "project/searchable_encryption/6.jpg",
+                        "project/searchable_encryption/7.jpg",
+                        "project/searchable_encryption/8.jpg",
+                        "project/searchable_encryption/9.jpg",
+                        "project/searchable_encryption/10.jpg",
+                        "project/searchable_encryption/11.jpg",
+                        "project/searchable_encryption/12.jpg",
+                        "project/searchable_encryption/13.jpg",
+                        "project/searchable_encryption/14.jpg",
+                        "project/searchable_encryption/15.jpg",
+                        "project/searchable_encryption/16.jpg",
+                        "project/searchable_encryption/17.jpg"
+                    ],
+                    rawImage:true,
+                    width:200,
+                    entrance:"https://github.com//BINGOGO123/Encrypted-cloud-storage-app/releases/download/v1.0.0/searchable.encryption.apk",
+                    codeAddress:"https://github.com/BINGOGO123/Encrypted-cloud-storage-app",
+                    entranceInfo:"下载",
+                    entranceLogo:"fa-arrow-circle-down"
+                },
+                {
                     title:"同济大学小社区",
                     introduction:"一个社区交流平台，用户以及发布文章活动以及评论参与等，有完整的个人动态；管理员具有管理用户、文章、活动评论以及发布公告等功能；移动端适配",
                     imageList:[

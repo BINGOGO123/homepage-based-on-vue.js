@@ -1,4 +1,25 @@
 body
 {
     background-color:#F1F2F9;
+    min-width:1000px;
+}
+
+.link
+{
+    color:rgb(204, 204, 204);
+    text-align: center;
+    color:black;
+    font-family: "Verdana",youyuan;
+    margin-bottom:10px;
+}
+.link a
+{
+    color:rgb(204, 204, 204);
+    font-family: "Verdana",youyuan;
+    text-decoration: none;
+    color:rgba(0, 0, 0, 0.6);
+}
+.link a:hover
+{
+    color:rgb(81, 141, 252);
 }

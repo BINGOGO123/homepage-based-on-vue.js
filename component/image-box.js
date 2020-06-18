@@ -8,7 +8,9 @@ Vue.component("image-box",{
         rawImage:{
             type:Boolean,
             default:false
-        }
+        },
+        height:Number,
+        width:Number
     },
     data:function(){
         return {
@@ -18,7 +20,7 @@ Vue.component("image-box",{
     template:`
     <div class="image-box">
         <div class="image-display">
-            <img :src="imageList[selected]" ref="img" :class="{animated:true,'raw-image':rawImage}" alt="图片无法显示" />
+            <img :src="imageList[selected]" ref="img" :class="{animated:true,'raw-image':rawImage}" :style='{width:width+"px",height:height+"px"}' alt="图片无法显示" />
         </div>
         <div class="select">
             <div class="option" v-for="(image,index) in imageList" @click="convert(index)">
@@ -36,5 +38,11 @@ Vue.component("image-box",{
             // this.$refs.img.className = "animated rollIn"
             this.selected = order; 
         }
+    },
+    mounted:function(){
+        if(this.height != undefined)
+            this.$refs.img.height = this.height + "px";
+        if(this.width != undefined)
+            this.$refs.img.width = this.width + "px";
     }
 });

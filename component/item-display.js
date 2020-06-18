@@ -30,6 +30,8 @@ Vue.component("item-display",{
             v-if="opened"
             :imageList="item.imageList"
             :rawImage="item.rawImage ? true : false"
+            :height="item.height"
+            :width="item.width"
             ></image-box>
         </div>
         <div v-if="item.imageList.length!=0" :class="{'open-button':true,opened:opened}" @click="open">
