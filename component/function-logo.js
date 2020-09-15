@@ -14,10 +14,10 @@ Vue.component("function-logo",{
             @mouseleave="hover=false"
             ></i>
             <div class="content">
-                <img src="images/head.jpg" />
+                <img src="images/head.png" />
                 <div class="detail-info">
                     <div class="info large">
-                        臧海彬
+                        bingo
                     </div>
                     <div class="info">
                         同济大学嘉定校区、同济大学大四本科生、电子与信息工程学院计算机科学与技术、家乡是山东青岛
