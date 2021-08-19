@@ -76,7 +76,7 @@ window.onload = function(){
                         "project/compiler/2.PNG",
                         "project/compiler/3.PNG"
                     ],
-                    entrance:"https://www.bingoz.cn/compiler/compiler_win64.zip",
+                    entrance:"https://www.bingoz.cn/download/compiler_win64.zip",
                     codeAddress:false,
                     entranceInfo:"下载",
                     entranceLogo:"fa-arrow-circle-down"
@@ -102,7 +102,7 @@ window.onload = function(){
                         "project/web_chat/3.PNG"
                     ],
                     entrance:"https://www.bingoz.cn/web-exp-5",
-                    codeAddress:false,
+                    codeAddress:"https://www.bingoz.cn/download/web-chat.zip",
                     entranceInfo:"前往",
                     entranceLogo:"fa-arrow-circle-right"
                 },
@@ -112,7 +112,7 @@ window.onload = function(){
                     imageList:[
                         "project/chat/1.PNG"
                     ],
-                    entrance:"https://www.bingoz.cn/chat/chat.zip",
+                    entrance:"https://www.bingoz.cn/download/chat.zip",
                     codeAddress:false,
                     entranceInfo:"下载",
                     entranceLogo:"fa-arrow-circle-down"
