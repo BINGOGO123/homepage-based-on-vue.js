@@ -36,18 +36,18 @@ window.onload = function(){
                     title:"同济大学小社区",
                     introduction:"一个社区交流平台，用户以及发布文章活动以及评论参与等，有完整的个人动态；管理员具有管理用户、文章、活动评论以及发布公告等功能；移动端适配",
                     imageList:[
-                        "project/tongjicircle/1.PNG",
-                        "project/tongjicircle/2.PNG",
-                        "project/tongjicircle/3.PNG",
-                        "project/tongjicircle/4.PNG",
-                        "project/tongjicircle/5.PNG",
-                        "project/tongjicircle/6.PNG",
-                        "project/tongjicircle/7.PNG",
-                        "project/tongjicircle/8.PNG",
-                        "project/tongjicircle/9.PNG",
-                        "project/tongjicircle/10.PNG",
-                        "project/tongjicircle/11.PNG",
-                        "project/tongjicircle/12.PNG"
+                        "project/tongjicircle/1.png",
+                        "project/tongjicircle/2.png",
+                        "project/tongjicircle/3.png",
+                        "project/tongjicircle/4.png",
+                        "project/tongjicircle/5.png",
+                        "project/tongjicircle/6.png",
+                        "project/tongjicircle/7.png",
+                        "project/tongjicircle/8.png",
+                        "project/tongjicircle/9.png",
+                        "project/tongjicircle/10.png",
+                        "project/tongjicircle/11.png",
+                        "project/tongjicircle/12.png"
                     ],
                     entrance:"https://bingoz.cn/tongjicircle",
                     codeAddress:"https://github.com/BINGOGO123/tongjicircle",
@@ -58,9 +58,9 @@ window.onload = function(){
                     title:"实时小说下载网站",
                     introduction:"多站小说下载器，使用实时爬虫搜索和下载多个网站的小说内容，每次搜索和下载都会进行多次爬取，因此能够实时抓取小说网站的内容，且不占用服务器的硬盘空间，但搜索和下载速度较慢。",
                     imageList:[
-                        "project/novel_download/1.PNG",
-                        "project/novel_download/2.PNG",
-                        "project/novel_download/3.PNG"
+                        "project/novel_download/1.png",
+                        "project/novel_download/2.png",
+                        "project/novel_download/3.png"
                     ],
                     codeAddress:"https://github.com/BINGOGO123/novel_download",
                 },
@@ -75,10 +75,10 @@ window.onload = function(){
                     title:"云文件夹",
                     introduction:"基于vue.js搭建的云文件夹系统，用户可以在线管理自己的文件夹和编辑文件等",
                     imageList:[
-                        "project/editor/1.PNG",
-                        "project/editor/2.PNG",
-                        "project/editor/3.PNG",
-                        "project/editor/4.PNG"
+                        "project/editor/1.png",
+                        "project/editor/2.png",
+                        "project/editor/3.png",
+                        "project/editor/4.png"
                     ],
                     entrance:"https://www.bingoz.cn/editor",
                     codeAddress:"https://github.com/BINGOGO123/cloud_editor",
@@ -89,9 +89,9 @@ window.onload = function(){
                     title:"windows平台简易C编译器",
                     introduction:"c++编写的c编译器，用户界面采用electron实现",
                     imageList:[
-                        "project/compiler/1.PNG",
-                        "project/compiler/2.PNG",
-                        "project/compiler/3.PNG"
+                        "project/compiler/1.png",
+                        "project/compiler/2.png",
+                        "project/compiler/3.png"
                     ],
                     entrance:"https://www.bingoz.cn/download/compiler_win64.zip",
                     codeAddress:false,
@@ -102,8 +102,8 @@ window.onload = function(){
                     title:"学习能力评测",
                     introduction:"面向计算机专业学生的基于层次分析法的学习能力评测",
                     imageList:[
-                        "project/sitp/1.PNG",
-                        "project/sitp/2.PNG"
+                        "project/sitp/1.png",
+                        "project/sitp/2.png"
                     ],
                     entrance:"https://www.bingoz.cn/sitp",
                     codeAddress:"https://github.com/BINGOGO123/study-test",
@@ -114,9 +114,9 @@ window.onload = function(){
                     title:"web聊天室",
                     introduction:"基于http轮询的聊天室，另有答题功能；图片未压缩，所以网页加载速度很慢",
                     imageList:[
-                        "project/web_chat/1.PNG",
-                        "project/web_chat/2.PNG",
-                        "project/web_chat/3.PNG"
+                        "project/web_chat/1.png",
+                        "project/web_chat/2.png",
+                        "project/web_chat/3.png"
                     ],
                     entrance:"https://www.bingoz.cn/web-exp-5",
                     codeAddress:"https://www.bingoz.cn/download/web-chat.zip",
@@ -127,7 +127,7 @@ window.onload = function(){
                     title:"windows聊天软件",
                     introduction:"windows聊天软件，其中网络交互部分均使用tcp socket自定义报文实现，支持文件传输；桌面应用使用qt编写，服务器使用标准c++编写；未启动服务端守护进程故目前无法登录使用",
                     imageList:[
-                        "project/chat/1.PNG"
+                        "project/chat/1.png"
                     ],
                     entrance:"https://www.bingoz.cn/download/chat.zip",
                     codeAddress:false,
@@ -147,7 +147,7 @@ window.onload = function(){
                     title:"QR CODE协议实现",
                     introduction:"使用C++从头到尾实现的QR CODE协议生成部分，可以自定义版本号和纠错等级；下图为40版本H纠错二维码，需要耐心扫描",
                     imageList:[
-                        "project/qr_code/1.PNG"
+                        "project/qr_code/1.png"
                     ],
                     rawImage:true,
                     entrance:false,
