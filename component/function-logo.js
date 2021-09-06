@@ -17,10 +17,10 @@ Vue.component("function-logo",{
                 <img src="images/head.png" />
                 <div class="detail-info">
                     <div class="info large">
-                        bingo
+                        Bingo
                     </div>
                     <div class="info">
-                        同济大学嘉定校区、同济大学大四本科生、电子与信息工程学院计算机科学与技术、家乡是山东青岛
+                        同济大学、电子与信息工程学院计算机科学与技术
                     </div>
                     <div class="info">
                         <span>邮箱：</span>416778940@qq.com</span>
@@ -29,7 +29,7 @@ Vue.component("function-logo",{
                         <span>微信：</span>ppkk7733</span>
                     </div>
                     <div class="info">
-                        <span>github：</span><a href="https://github.com/BINGOGO123" target="_BLANK">https://github.com/BINGOGO123</a></span>
+                        <span>Github：</span><a href="https://github.com/BINGOGO123" target="_BLANK">https://github.com/BINGOGO123</a></span>
                     </div>
                 </div>
             </div>

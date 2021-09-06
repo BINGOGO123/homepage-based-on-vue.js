@@ -55,6 +55,23 @@ window.onload = function(){
                     entranceLogo:"fa-arrow-circle-right"
                 },
                 {
+                    title:"实时小说下载网站",
+                    introduction:"多站小说下载器，使用实时爬虫搜索和下载多个网站的小说内容，每次搜索和下载都会进行多次爬取，因此能够实时抓取小说网站的内容，且不占用服务器的硬盘空间，但搜索和下载速度较慢。",
+                    imageList:[
+                        "project/novel_download/1.PNG",
+                        "project/novel_download/2.PNG",
+                        "project/novel_download/3.PNG"
+                    ],
+                    codeAddress:"https://github.com/BINGOGO123/novel_download",
+                },
+                {
+                    title:"pixiv资源下载管理器",
+                    introduction:"pixiv批下载工具，可批下载用户收藏或创作的图片、小说，用于对个人收藏进行管理",
+                    imageList:[
+                    ],
+                    codeAddress:"https://github.com/BINGOGO123/pixiv_download",
+                },
+                {
                     title:"云文件夹",
                     introduction:"基于vue.js搭建的云文件夹系统，用户可以在线管理自己的文件夹和编辑文件等",
                     imageList:[
@@ -83,7 +100,7 @@ window.onload = function(){
                 },
                 {
                     title:"学习能力评测",
-                    introduction:"面向计算机专业学生的基于层次分析法的学习能力评测（玄学）",
+                    introduction:"面向计算机专业学生的基于层次分析法的学习能力评测",
                     imageList:[
                         "project/sitp/1.PNG",
                         "project/sitp/2.PNG"
