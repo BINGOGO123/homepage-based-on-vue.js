@@ -33,6 +33,25 @@ window.onload = function(){
                     entranceLogo:"fa-arrow-circle-down"
                 },
                 {
+                    title:"pixiv资源下载管理器",
+                    introduction:"pixiv批下载工具，可批下载用户收藏或创作的图片、小说，可用以对个人收藏进行管理。1.扁平化图形客户端。2.完整日记录。3.Pixiv账户保存与验证。4.用户收藏、用户创作下载，通过本地数据库记录与本地文件比对实现高效下载。4.下载设置与数据库设置。",
+                    imageList:[
+                        "project/pixiv_download/1.png",
+                        "project/pixiv_download/2.png",
+                        "project/pixiv_download/3.png",
+                        "project/pixiv_download/4.png",
+                        "project/pixiv_download/5.jpg",
+                        "project/pixiv_download/6.jpg",
+                        "project/pixiv_download/7.jpg"
+                    ],
+                    rawImage:true,
+                    height:600,
+                    entrance:"https://github.com/BINGOGO123/pixiv_download/releases/download/v2.0/client.7z",
+                    codeAddress:"https://github.com/BINGOGO123/pixiv_download",
+                    entranceInfo:"下载",
+                    entranceLogo:"fa-arrow-circle-down"
+                },
+                {
                     title:"同济大学小社区",
                     introduction:"一个社区交流平台，用户以及发布文章活动以及评论参与等，有完整的个人动态；管理员具有管理用户、文章、活动评论以及发布公告等功能；移动端适配",
                     imageList:[
@@ -63,13 +82,6 @@ window.onload = function(){
                         "project/novel_download/3.png"
                     ],
                     codeAddress:"https://github.com/BINGOGO123/novel_download",
-                },
-                {
-                    title:"pixiv资源下载管理器",
-                    introduction:"pixiv批下载工具，可批下载用户收藏或创作的图片、小说，用于对个人收藏进行管理",
-                    imageList:[
-                    ],
-                    codeAddress:"https://github.com/BINGOGO123/pixiv_download",
                 },
                 {
                     title:"云文件夹",
