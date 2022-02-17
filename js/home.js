@@ -44,7 +44,7 @@ window.onload = function(){
                         "project/pixiv_download/6.jpg",
                         "project/pixiv_download/7.jpg"
                     ],
-                    rawImage:true,
+                    // rawImage:true,
                     height:600,
                     entrance:"https://github.com/BINGOGO123/pixiv_download/releases/download/v2.0/client.7z",
                     codeAddress:"https://github.com/BINGOGO123/pixiv_download",
@@ -105,6 +105,7 @@ window.onload = function(){
                         "project/compiler/2.png",
                         "project/compiler/3.png"
                     ],
+                    height:600,
                     entrance:"https://www.bingoz.cn/download/compiler_win64.zip",
                     codeAddress:false,
                     entranceInfo:"下载",
@@ -141,6 +142,8 @@ window.onload = function(){
                     imageList:[
                         "project/chat/1.png"
                     ],
+                    width: 400,
+                    height: 270,
                     entrance:"https://www.bingoz.cn/download/chat.zip",
                     codeAddress:false,
                     entranceInfo:"下载",
